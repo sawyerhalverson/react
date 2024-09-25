@@ -1,11 +1,7 @@
 function BlogPost(props) {
   return (
     <div className="BlogPost">
-      <img
-        src="https://via.placeholder.com/1000x100"
-        alt="Placeholder Banner"
-        className="banner-image"
-      />
+      <img src={props.img} alt="Placeholder Banner" className="banner-image" />
 
       <h3>{props.title}</h3>
       <div class="info-container">

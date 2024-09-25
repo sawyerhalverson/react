@@ -1,4 +1,4 @@
-function Header() {
+function Header({ toggleDarkMode }) {
   return (
     <div className="Header">
       <ul>
@@ -12,6 +12,7 @@ function Header() {
           <a href="#">About the author</a>
         </li>
       </ul>
+      <button onClick={toggleDarkMode}>Toggle Dark Mode</button>
     </div>
   );
 }
